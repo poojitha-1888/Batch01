@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+table{
+    width:1000px;
+    margin:auto;
+    text-align: center;
+    margin: top 200px;
+}
+table{
+    
+    padding:10px;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid white;
+    padding:10px;
+}
+thead{
+    color:white;
+    background-color: darkcyan;
+    font-size: larger;
+}
+tbody{
+    background-color: rgb(164, 215, 247);
+}
+img{
+    width:20px;
+    height:auto;
+}
