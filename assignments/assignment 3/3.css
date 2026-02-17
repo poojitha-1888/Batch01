@@ -1,0 +1,18 @@
+body {
+    background-color:#e8dfcf;
+    text-align: center;
+}
+.container {
+    margin: 40px auto;
+    
+}
+h3{
+    text-align:left;
+}
+a{
+   color:darkgreen;
+}
+p{
+    text-align:left;
+}
+ 
