@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e923f0;
+}
+
+.hero {
+    background: url("https://media.istockphoto.com/id/904172104/photo/weve-made-it-all-this-way-i-am-proud.jpg?s=612x612&w=0&k=20&c=MewnsAhbeGRcMBN9_ZKhThmqPK6c8nCT8XYk5ZM_hdg=") no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(78, 25, 161);
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: darkorange;
+}
+
+
+
+.outdoor {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10%;
+    background: white;
+}
+
+.outdoor-text {
+    width: 40%;
+}
+
+.outdoor-text h2 {
+    color: #0b3d91;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.outdoor-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.outdoor-image {
+    width: 50%;
+    position: relative;
+}
+
+.outdoor-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.slider-buttons {
+    position: absolute;
+    bottom: -25px;
+    left: 20px;
+}
+
+.slider-buttons span {
+    background: white;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+
+.tourism {
+    padding: 60px 10%;
+    text-align: left;
+}
+
+.tourism h2 {
+    color: #0b3d91;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.tourism-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: orange;
+    font-weight: bold;
+}
+
+.card:hover {
+    background: #e6e6e6;
+    transform: translateY(-5px);
+}
+
+
+
+.suits {
+    padding: 60px 10%;
+    background: white;
+    text-align: center;
+}
+
+.suits h2 {
+    color: #0b3d91;
+    margin-bottom: 20px;
+}
+
+.tabs span {
+    margin: 0 15px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.tabs .active {
+    border-bottom: 3px solid orange;
+    color: orange;
+}
