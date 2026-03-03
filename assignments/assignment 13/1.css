@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    
+    background-color: red;
+    width: 1370px;
+    height: 350px;
+    padding: 90px;
+    color: aliceblue;
+    text-align: justify;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDfQ5LGqVcPsJ-HQL6uae6-991XMSGFh5Jw&s);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
+}
+main{
+    display: flex;
+    background-color: red;
+    height: 500px;
+    justify-content: space-evenly;
+    max-width: 100%;
+    text-align: center;
+    text-align: justify;
+    color: aliceblue;
+}
+main .container1{
+    padding: 10px;
+    background-color: darkred;
+}
+main .container2{
+margin-left: 5px;
+margin-right: 5px;
+background-color: darkred;
+}
+main .container3{
+    background-color: darkred;
+}
+nav{
+    color: brown;
+    margin-left: 90px;
+}
